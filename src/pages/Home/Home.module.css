@@ -1,12 +1,10 @@
 /* css da page Home */
 .home {
   width: 100%;
-  min-height: 90vh;
-
+  min-height: 75vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  /* space-around */
+  justify-content: space-around;
 }
 
 .home img {
@@ -15,7 +13,6 @@
 
 .home p {
   font-size: 3rem;
-  /* 48px */
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -49,17 +46,15 @@
 
 /* aula 11 extra 01 responsividade */
 
-
-
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
   }
 
   .home img {
-    height: 500px;
+    width: 100%;
+    height: 90%;
   }
-  
 }
 
 @media (max-width: 480px) {
@@ -70,10 +65,29 @@
   .home img {
     height: 300px;
   }
-  
 
   .fig span {
     margin-left: 10px;
   }
+}
 
+/* Responsividade para telas acima de 900px */
+@media (min-width: 900px) {
+  .home {
+    justify-content: space-between;
+  }
+
+  .home img {
+    height: 600px;
+  }
+
+  .home p {
+    font-size: 3.5rem;
+  }
+
+  .btn {
+    width: 300px;
+    height: 60px;
+    font-size: 1.25rem;
+  }
 }
