@@ -1,6 +1,6 @@
 .sobre {
     width: 100%;
-    min-height: 85vh;
+    min-height: 80vh;
     
 
     display: flex;
@@ -45,18 +45,27 @@
 
 }
 
-.textos p {
+/*.textos p {
     width: 72%;
     text-align: justify;
     margin: 0, auto;
-}    
+}*/   
+
+.textos_sobre{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
 
 .techs {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.125rem;
+    gap: 10px;
 }
 
 .icones {

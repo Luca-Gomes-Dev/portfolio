@@ -18,14 +18,15 @@ export default function Sobre() {
                     <h2>Sobre</h2>
                     <p><span>Sou Luca_Dev </span></p><br /> <br />
 
-                    <p> <strong>Sou um Desenvolvedor Junior apaixonado
-                        em transformar ideias em realidade digital.</strong></p>
+                    <div className={styles.textos_sobre}>
+                        <p> <strong>Sou um Desenvolvedor Junior apaixonado
+                            em transformar ideias em realidade digital.</strong></p>
+                        <p>Meu nome é Luiz Carlos e estou em transição de carreira para a área de desenvolvimento, um campo pelo qual sempre tive grande interesse. Tenho uma sólida experiência de sete anos como Balconista em farmácia, além de quatro anos como digitador e operador de computador no Hospital Jayme da Fonte. Também atuei como vendedor de produtos de informática na NetBOx por muitos anos.
 
-                    <p>Meu nome é Luiz Carlos e estou em transição de carreira para a área de desenvolvimento, um campo pelo qual sempre tive grande interesse. Tenho uma sólida experiência de sete anos como Balconista em farmácia, além de quatro anos como digitador e operador de computador no Hospital Jayme da Fonte. Também atuei como vendedor de produtos de informática na NetBOx por muitos anos.
+                            Durante minha transição, participei do curso Profissão Programador, onde desenvolvi diversos projetos, incluindo a página “Projeto Batman”, que simula a venda de ingressos e a apresentação de filmes na web. Além disso, criei e desenvolvi minha própria página de portfólio, onde apresento os projetos realizados ao longo do curso e as tecnologias que aprendi e domino.
 
-                        Durante minha transição, participei do curso Profissão Programador, onde desenvolvi diversos projetos, incluindo a página “Projeto Batman”, que simula a venda de ingressos e a apresentação de filmes na web. Além disso, criei e desenvolvi minha própria página de portfólio, onde apresento os projetos realizados ao longo do curso e as tecnologias que aprendi e domino.
-
-                        <strong>Recentemente, concluí os cursos Fast Transição de Carreiras de Dados (2023) e Fast Front End (2024) na Cesar School, aprimorando ainda mais minhas habilidades na área de desenvolvimento.</strong></p>
+                            <strong>Recentemente, concluí os cursos Fast Transição de Carreiras de Dados (2023) e Fast Front End (2024) na Cesar School, aprimorando ainda mais minhas habilidades na área de desenvolvimento.</strong></p>
+                    </div>
                 </div>
             </div>
 
