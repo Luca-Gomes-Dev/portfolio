@@ -17,7 +17,7 @@ export default function Home() {
                     </div>
                     <figure className={styles.fig}>
                         <img className={styles.img_home} src="/dev.jpg" alt="Imagem de Home" />
-                        <span>Procurando um Proramador Junior</span>
+                        <span>Procurando um Programador Junior</span>
                     </figure>
 
                 </section>
