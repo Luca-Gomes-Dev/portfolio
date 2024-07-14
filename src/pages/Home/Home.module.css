@@ -1,0 +1,144 @@
+.home {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Adicionado para melhor responsividade */
+}
+
+.home img {
+    height: 400px;
+    max-width: 100%; /* Adicionado para melhor responsividade */
+}
+
+.home p {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Adicionado para melhor responsividade */
+}
+
+.home span {
+    color: var(--red);
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn_red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn_red:hover {
+    background-color: var(--primary);
+    transition: all 0.5s;
+}
+
+.fig span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media (max-width: 1200px) {
+    .home p {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home img {
+        height: 300px;
+    }
+
+    .home p {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home img {
+        height: 250px;
+    }
+
+    .home p {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home img {
+        height: 200px;
+    }
+
+    .home p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+/* Media Query para telas menores que 320px */
+@media (max-width: 320px) {
+    .home img {
+        height: 120px;
+    }
+
+    .home p {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        width: 80px;
+        height: 20px;
+        font-size: 6px;
+    }
+
+    .fig span {
+        font-size: 0.8rem;
+    }
+}

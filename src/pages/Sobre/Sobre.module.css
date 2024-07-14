@@ -1,0 +1,71 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio span{
+    color:var(--red);
+    font-weight: bold;
+}
+
+.bio img {
+
+    width: 250px;
+    height: 250px;
+    /* Opcional, se você quiser que a altura também seja 250px */
+    border-radius: 50%;
+    /* Para deixar a imagem redonda, se for um avatar */
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.textos strong{
+    color:var(--secondary);
+    font-weight: bold;
+}
+
+.textos h2, span {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    
+   
+
+}
+
+.textos p {
+    width: 72%;
+    text-align: justify;
+    margin: 0, auto;
+}    
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.125rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img {
+    height: 50px;
+}
