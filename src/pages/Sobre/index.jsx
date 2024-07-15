@@ -19,13 +19,18 @@ export default function Sobre() {
                     <p><span>Sou Luca_Dev </span></p><br /> <br />
 
                     <div className={styles.textos_sobre}>
-                        <p> <strong>Sou um Desenvolvedor Junior apaixonado
-                            em transformar ideias em realidade digital.</strong></p>
-                        <p>Meu nome é Luiz Carlos e estou em transição de carreira para a área de desenvolvimento, um campo pelo qual sempre tive grande interesse. Tenho uma sólida experiência de sete anos como Balconista em farmácia, além de quatro anos como digitador e operador de computador no Hospital Jayme da Fonte. Também atuei como vendedor de produtos de informática na NetBOx por muitos anos.
+                        <p><strong>Sou um Desenvolvedor Junior apaixonado em transformar ideias em realidade digital.</strong></p>
 
-                            Durante minha transição, participei do curso Profissão Programador, onde desenvolvi diversos projetos, incluindo a página “Projeto Batman”, que simula a venda de ingressos e a apresentação de filmes na web. Além disso, criei e desenvolvi minha própria página de portfólio, onde apresento os projetos realizados ao longo do curso e as tecnologias que aprendi e domino.
+                        <p><strong>Meu nome é Luiz Carlos e estou em transição de carreira para a área de desenvolvimento, um campo pelo qual sempre tive grande interesse. Recentemente, concluí os cursos Fast Transição de Carreiras de Dados (2023) e Fast Front End (2024) na Cesar School, aprimorando ainda mais minhas habilidades na área de desenvolvimento.</strong></p>
 
-                            <strong>Recentemente, concluí os cursos Fast Transição de Carreiras de Dados (2023) e Fast Front End (2024) na Cesar School, aprimorando ainda mais minhas habilidades na área de desenvolvimento.</strong></p>
+                        <p>Durante minha transição, participei também do curso Profissão Programador em 2020, onde desenvolvi diversos projetos, incluindo a página <strong>“Projeto Batman”</strong>, que simula a venda de ingressos e a apresentação de filmes na web. Além disso, criei e desenvolvi minha <strong>“página de portfólio”</strong>, onde apresento os projetos realizados ao longo do curso e as tecnologias que aprendi e domino.</p>
+
+                        <p><strong>Trabalho como freelancer com manutenção de computadores, fazendo instalação de programas como Windows, Linux, software open source, instalação de peças (placa mãe, placa de vídeo, SSD, entre outras). Também realizo serviços gráficos diversos utilizando CorelDRAW e Photoshop como ferramentas.</strong></p>
+
+                        <p>Tenho uma sólida experiência de oito anos como balconista em farmácia, além de quatro anos como digitador e operador de computador no Hospital Jayme da Fonte. Também atuei como vendedor de produtos de informática na NetBox por muitos anos.</p>
+
+
+
                     </div>
                 </div>
             </div>
